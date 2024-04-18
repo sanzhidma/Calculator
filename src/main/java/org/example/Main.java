@@ -6,11 +6,11 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int result = calculater();
+        int result = calculator();
         System.out.println(result);
     }
 
-    private static int calculater() {
+    private static int calculator() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите выражение:");
         String str = sc.nextLine().replaceAll("\\s", "");
